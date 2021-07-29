@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" name="Tee Time Reservation">
+        <div id="title">
+        <h1>Auburn Pines Country Club</h1>
+        </div>
+
+        <h2 id="reservation">Reservation Page</h2>
+
+        <div id="player_pic">
+            <section id="player_info">
+                <label for="name" id="name">Name</label>
+                <input type="text" id="name" required placeholder="Required">
+
+                <label for="email" id="email">Email</label>
+                <input type="email" id="email" required placeholder="Required">
+
+                <label for="phone_number" id="phone_number">Phone Number</label>
+                <input type="text" id="phone_number" placeholder="Optional">
+            </section>
+
+            <img src="/IMG_5229.jpeg" alt="Auburn Pines Country Club">
+
+        </div>
+        <div id="middle_section">
+            <section id="hole_selection">
+            
+                <h2>Holes:</h2>
+                    <label for="nine">9</label>
+                    <input type="radio" id="nine" name="holes">
+
+                    <label for="eighteen">18</label>
+                    <input type="radio" id="eighteen" name="holes">
+                    
+                </section>
+
+                <section id="player_selection">
+                    <h2>Players:</h2>
+
+                    <label for="one_player">1</label>
+                    <input type="radio" id="one_player" name="players">
+
+                    <label for="two_player">2</label>
+                    <input type="radio" id="two_player" name="players">
+
+                    <label for="three_player">3</label>
+                    <input type="radio" id="three_player" name="players">
+
+                    <label for="four_player">4</label>
+                    <input type="radio" id="four_player" name="players">
+                </section>
+        </div>
+        <section>
+            <h2>Tee Times</h2>
+
+            <input type="radio" id="1" name="time">
+            <label for="1">8:00</label>
+
+            <input type="radio" id="2" name="time">
+            <label for="2">8:55</label>
+
+            <input type="radio" id="3" name="time">
+            <label for="3">10:00</label>
+
+            <input type="radio" id="4" name="time">
+            <label for="4">10:45</label>
+
+            <input type="radio" id="5" name="time">
+            <label for="5">11:35</label>
+
+            <input type="radio" id="6" name="time">
+            <label for="6">11:55</label>
+
+        </section>
+
+        <br>
+
+        <section>
+
+            <input type="radio" id="7" name="time">
+            <label for="7">12:20</label>
+
+            <input type="radio" id="8" name="time">
+            <label for="8">2:00</label>
+
+            <input type="radio" id="9" name="time">
+            <label for="9">3:00</label>
+
+            <input type="radio" id="10" name="time">
+            <label for="10">4:10</label>
+
+            <input type="radio" id="11" name="time">
+            <label for="11">4:30</label>
+
+            <input type="radio" id="12" name="time">
+            <label for="12">5:10</label>
+
+        </section>
+
+        <div id="bottom_section">
+            <section id="resident_section">
+
+                <h2>Resident:</h2>
+
+                <label for="resident_yes">Yes</label>
+                <input type="radio" id="resident_yes" name="resident">
+
+                <label for="resident_no">No</label>
+                <input type="radio" id="resident_no" name="resident">
+
+            </section>
+
+            <section>
+                
+                <h2>Cart:</h2>
+
+                <label for="walking_yes">Yes</label>
+                <input type="radio" id="walking_yes" name="resident">
+
+                <label for="walking_no">No</label>
+                <input type="radio" id="walking_no" name="resident">
+
+            </section>
+        </div>
+
+        <div id="button_div">
+        <input type="button"
+        onclick="window.location.href='/payment_page.html';" value="Next" id="button">
+        </div>
+
+    </form>
+</body>
+</html>

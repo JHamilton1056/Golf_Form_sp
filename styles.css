@@ -1,0 +1,143 @@
+
+#name, 
+#email, 
+#phone_number,
+#card_number,
+#exp_date{
+    display: block;
+}
+
+body {
+    background-color: rgb(201, 171, 145);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(86, 163, 106);
+    width: 500px;
+    border-radius: 25px;
+    font-family: 'Cinzel';
+}
+
+#title, h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    border-bottom: double black;
+}
+
+section{
+    padding-left: 30px;
+    
+}
+
+#reservation {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    font-family: 'cinzel','sarif';
+    font-style: italic;
+    opacity: 50%;
+}
+
+input:hover, button:hover {
+    border-color: blue;
+}
+
+#button, #confirm_button{
+    height: 30px;
+    width: 300px;
+    margin: 30px 30px;
+    font-family: 'Cinzel';
+    background-color: white;
+}
+
+#button_div {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_section {
+    display: flex;
+}
+
+#resident_section {
+    margin-right: 100px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 5px black;
+}
+
+#player_pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle_section {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+
+
+
+
+#total_due {
+    padding-bottom: 50px;
+}
+
+#receipt_container {
+    display: flex;
+    justify-content: center;
+}
+
+#receipt_section {
+    width: 380px;
+    height: 175px;
+    background-color: rgb(90, 156, 82);
+    border-radius: 15px;
+}
+
+h4 {
+    text-align: right;
+    padding-right: 75px;
+}
+
+#cc_section {
+    padding-top: 20px;
+}
+
+#cc_container {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+#cvv {
+    width: 28px;
+}
+
+#terms {
+    font-size: 10px;
+    padding: 0px 30px 20px 30px;
+}
+
+#confirm_button {
+    align-self: center;
+}
+

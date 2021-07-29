@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" name="Payment_processing_form">
+
+        <h1>Auburn Pines Country Club</h1>
+
+        <section>
+            <h3 id="total_due">Total due today: <span id="total_price"></span></h3>
+
+            <h3>Charges:</h3>
+        </section> 
+        
+        <div id="receipt_container">
+            <div id="receipt_section"></div>
+        </div>
+
+        <h4>total:</h4>
+
+        <div id="cc_container">
+
+            <section id="cc_section">
+                <h3>Credit Card:</h3>
+
+
+            <label for="card_number">Card #</label>
+            <input type="text" id="card_number" maxlength="19">
+            
+            <label for="exp_date">Exp</label>
+            <input type="month" id="exp_date">
+
+            <label for="cvv">CVV</label><br>
+            <input type="text" id="cvv" maxlength= 4><br>
+
+            <label for="name_on_card">Name On Card</label><br>
+            <input type="text" id="name_on_card">
+
+            </section>
+
+        </div>
+
+        <div id="terms"> *Terms & Conditions: Rounds must be cancelled 24 hours in advance by contacting the pro shop.
+            If you do not cancel your round prior to the 24 hour deadline, Auburn Pines Country Club holds the right to process the card on file.
+        </div>
+        
+        <div id="button_div">
+        <button id="confirm_button">Confirm Tee Time</button>
+        </div>
+    </form>
+</body>
+</html>
